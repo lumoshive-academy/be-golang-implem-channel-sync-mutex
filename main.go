@@ -24,5 +24,6 @@ func main() {
 
 	app := wire.Wiring(repo)
 
-	cmd.APiserver(app)
+	cmd.ApiServer(app)
+
 }
